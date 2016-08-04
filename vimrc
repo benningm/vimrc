@@ -16,7 +16,7 @@ else
 endif
 colorscheme solarized
 let g:solarized_contrast="high"
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ Bold\ 14
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ Book\ 14
 
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
