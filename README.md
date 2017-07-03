@@ -9,7 +9,13 @@ If a existing vim configuration exists. Move it away:
 mv .vimrc .vim ~/attic
 ```
 
-Clone the repository (with submodules) to your .vim config directory:
+Then execute the `install.sh` script:
+
+```
+wget -O - https://raw.githubusercontent.com/benningm/vimrc/master/install.sh | bash
+```
+
+Or manualy clone the repository (with submodules) to your .vim config directory:
 
 ```
 $ git clone --recursive https://github.com/benningm/vimrc.git .vim

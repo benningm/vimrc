@@ -64,3 +64,12 @@
 [submodule "vim-monokai"]
 	path = bundle/vim-monokai
 	url = https://github.com/sickill/vim-monokai.git
+[submodule "bundle/vim-rest-console"]
+	path = bundle/vim-rest-console
+	url = https://github.com/diepm/vim-rest-console.git
+[submodule "bundle/limelight"]
+	path = bundle/limelight
+	url = https://github.com/junegunn/limelight.vim.git
+[submodule "bundle/goyo"]
+	path = bundle/goyo
+	url = https://github.com/junegunn/goyo.vim
