@@ -6,6 +6,7 @@ filetype plugin indent on
 
 let g:syntastic_check_on_open=0
 let g:syntastic_enable_signs=1
+let g:syntastic_ruby_checkers=['rubocop','mri']
 
 syntax enable
 colorscheme monokai
