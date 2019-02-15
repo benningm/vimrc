@@ -59,3 +59,4 @@ endfunction
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 
+let g:deoplete#enable_at_startup = 1
