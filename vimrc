@@ -42,6 +42,8 @@ set showmatch
 set noerrorbells
 set novisualbell
 
+set mouse=a
+
 " tuning for large files
 let g:LargeFile = 1024 * 1024 * 10
 augroup LargeFile
