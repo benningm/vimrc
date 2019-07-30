@@ -45,6 +45,7 @@ set novisualbell
 set mouse=a
 
 set updatetime=500
+set number
 
 " tuning for large files
 let g:LargeFile = 1024 * 1024 * 10
