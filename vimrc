@@ -44,6 +44,8 @@ set novisualbell
 
 set mouse=a
 
+set updatetime=500
+
 " tuning for large files
 let g:LargeFile = 1024 * 1024 * 10
 augroup LargeFile
@@ -57,8 +59,5 @@ function LargeFile()
  setlocal undolevels=-1
  autocmd VimEnter *  echo "The file is larger than " . (g:LargeFile / 1024 / 1024) . " MB, so some options are changed (see .vimrc for details)."
 endfunction
-
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
 
 let g:deoplete#enable_at_startup = 1
