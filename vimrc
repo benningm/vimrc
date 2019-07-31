@@ -47,6 +47,10 @@ set mouse=a
 set updatetime=500
 set number
 
+highlight GitGutterAdd    ctermfg=2 ctermbg=8
+highlight GitGutterChange ctermfg=3 ctermbg=8
+highlight GitGutterDelete ctermfg=1 ctermbg=8
+
 " tuning for large files
 let g:LargeFile = 1024 * 1024 * 10
 augroup LargeFile
@@ -60,5 +64,3 @@ function LargeFile()
  setlocal undolevels=-1
  autocmd VimEnter *  echo "The file is larger than " . (g:LargeFile / 1024 / 1024) . " MB, so some options are changed (see .vimrc for details)."
 endfunction
-
-let g:deoplete#enable_at_startup = 1
