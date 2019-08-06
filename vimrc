@@ -64,3 +64,5 @@ function LargeFile()
  setlocal undolevels=-1
  autocmd VimEnter *  echo "The file is larger than " . (g:LargeFile / 1024 / 1024) . " MB, so some options are changed (see .vimrc for details)."
 endfunction
+
+let g:languagetool_jar='$HOME/.LanguageTool/languagetool-commandline.jar'
