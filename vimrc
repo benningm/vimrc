@@ -66,3 +66,4 @@ function LargeFile()
 endfunction
 
 let g:languagetool_jar='$HOME/.LanguageTool/languagetool-commandline.jar'
+let g:vue_pre_processors = []
