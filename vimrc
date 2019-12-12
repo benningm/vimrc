@@ -67,3 +67,12 @@ endfunction
 
 let g:languagetool_jar='$HOME/.LanguageTool/languagetool-commandline.jar'
 let g:vue_pre_processors = []
+
+" open nerdtree when no files are specified
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+map - :NERDTreeToggle<CR>
+map + :NERDTreeFind<CR>
+
+nnoremap <silent> <C-z> :FZF<CR>
